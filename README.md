@@ -161,6 +161,12 @@ public class RecyclerViewCornerRadius extends RecyclerView.ItemDecoration {
 
 
 
+## 下载 Demo 体验
+
+[app-debug.apk](https://github.com/wordplat/RecyclerViewCornerRadius/releases/download/v1.0.0/app-debug.apk)
+
+
+
 ## 缺陷
 
 别高兴的太早，仔细看那个对话框的下边圆角处，竟然有三四个像素是白色，感觉就像漏光一样。通过编程裁剪出来的圆角效果，它是有锯齿的。如果你知道如何去除锯齿，请提出一个PR，谢谢🙏
