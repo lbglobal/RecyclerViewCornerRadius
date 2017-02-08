@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/grid3x1List"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:scrollbars="none"
+        android:background="@drawable/bg_grid3x1" />
+
+    <Button android:id="@+id/dialogBut"
+        style="?attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="10dp"
+        android:textAllCaps="false"
+        android:text="RecyclerView Dialog"
+        android:textSize="15dp"
+        android:textColor="#282b34"
+        android:background="#dddddd"/>
+
+</RelativeLayout>
